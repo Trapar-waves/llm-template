@@ -1,0 +1,13 @@
+import { antfu } from "@antfu/eslint-config";
+
+export default antfu({
+  stylistic: {
+    quotes: "double",
+    semi: true,
+  },
+  markdown: true,
+  test: true,
+  formatters: {
+    markdown: "prettier",
+  },
+});
