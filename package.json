@@ -43,7 +43,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^4.12.0",
     "@rslib/core": "^0.6.7",
-    "@types/node": "^22.15.2",
+    "@types/node": "^22.15.3",
     "dotenv": "^16.5.0",
     "eslint": "^9.25.1",
     "eslint-plugin-format": "^1.0.1",
