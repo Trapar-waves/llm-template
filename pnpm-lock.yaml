@@ -12,8 +12,8 @@ importers:
         specifier: ^1.3.21
         version: 1.3.21(zod@3.24.4)
       ai:
-        specifier: ^4.3.13
-        version: 4.3.13(react@19.1.0)(zod@3.24.4)
+        specifier: ^4.3.14
+        version: 4.3.14(react@19.1.0)(zod@3.24.4)
       mdbox:
         specifier: ^0.1.1
         version: 0.1.1
@@ -990,8 +990,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  ai@4.3.13:
-    resolution: {integrity: sha512-cC5HXItuOwGykSMacCPzNp6+NMTxeuTjOenztVgSJhdC9Z4OrzBxwkyeDAf4h1QP938ZFi7IBdq3u4lxVoVmvw==}
+  ai@4.3.14:
+    resolution: {integrity: sha512-YAL7T7OIf6+nr0rT3kB+W4UU8lw3QZH+xtGud7sdOJHFufdn+4K5xSO3isXAM+5sxG0RgR4G9uD0ZoLPzuRTGg==}
     engines: {node: '>=18'}
     peerDependencies:
       react: ^18 || ^19 || ^19.0.0-rc
@@ -3444,7 +3444,7 @@ snapshots:
 
   acorn@8.14.1: {}
 
-  ai@4.3.13(react@19.1.0)(zod@3.24.4):
+  ai@4.3.14(react@19.1.0)(zod@3.24.4):
     dependencies:
       '@ai-sdk/provider': 1.1.3
       '@ai-sdk/provider-utils': 2.2.7(zod@3.24.4)
