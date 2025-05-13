@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.13.0",
-    "@rslib/core": "^0.6.9",
+    "@rslib/core": "^0.7.0",
     "@types/node": "^22.15.17",
     "dotenv": "^16.5.0",
     "eslint": "^9.26.0",
