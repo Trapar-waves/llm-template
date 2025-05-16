@@ -12,10 +12,10 @@
   "homepage": "https://github.com/Trapar-waves/llm-template ",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trapar-waves/llm-template .git"
+    "url": "git+https://github.com/Trapar-waves/llm-template.git"
   },
   "bugs": {
-    "url": "https://github.com/Trapar-waves/llm-template /issues"
+    "url": "https://github.com/Trapar-waves/llm-template/issues"
   },
   "keywords": [
     "llm",
