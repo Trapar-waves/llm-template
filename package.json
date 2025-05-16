@@ -2,7 +2,7 @@
   "name": "@trapar-waves/llm-template",
   "type": "module",
   "version": "1.0.6",
-  "description": "",
+  "description": "A template for LLM development integrating AI tools, TypeScript, Zod validation, and development utilities like Vitest and Rslib.",
   "author": {
     "email": "admin@rikka.cc",
     "name": "Rikka",
