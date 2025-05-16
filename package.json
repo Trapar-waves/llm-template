@@ -20,9 +20,15 @@
   "keywords": [
     "llm",
     "ai",
+    "typescript",
+    "zod",
     "vitest",
+    "vite",
     "rslib",
-    "zod"
+    "prettier",
+    "eslint",
+    "dotenv",
+    "pathe"
   ],
   "publishConfig": {
     "access": "public"
