@@ -34,8 +34,8 @@ importers:
         specifier: ^4.13.2
         version: 4.13.2(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.1(eslint@9.27.0(jiti@2.4.2)))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.1.4(@types/debug@4.1.12)(@types/node@22.15.24)(jiti@2.4.2)(yaml@2.7.1))
       '@rslib/core':
-        specifier: ^0.9.0
-        version: 0.9.0(typescript@5.8.3)
+        specifier: ^0.9.1
+        version: 0.9.1(typescript@5.8.3)
       '@types/node':
         specifier: ^22.15.24
         version: 22.15.24
@@ -636,8 +636,8 @@ packages:
     engines: {node: '>=16.10.0'}
     hasBin: true
 
-  '@rslib/core@0.9.0':
-    resolution: {integrity: sha512-nWpST4+oPPTi/P4EfYqtmPLAu7AJxDevt8/+D3aULHwYkjZCVn5l3v1/tcvUJImEWsKnquknu3QIjUBNDwLzwg==}
+  '@rslib/core@0.9.1':
+    resolution: {integrity: sha512-aa/LXYxr49lCNm/b0B4CQoTB5286MPglGsE5/YFoY0VwIcKJdMz0zBJ4DsPwh27/fcfDQvmN1+J9tzjt9TxQtQ==}
     engines: {node: '>=16.7.0'}
     hasBin: true
     peerDependencies:
@@ -1011,9 +1011,6 @@ packages:
   callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
-
-  caniuse-lite@1.0.30001717:
-    resolution: {integrity: sha512-auPpttCq6BDEG8ZAuHJIplGw6GODhjw+/11e7IjpnYCxZcW/ONgPs0KVBJ0d1bY3e2+7PRe5RCLyP+PfwVgkYw==}
 
   caniuse-lite@1.0.30001718:
     resolution: {integrity: sha512-AflseV1ahcSunK53NfEs9gFWgOEmzr0f+kaMFA4xiLZlr9Hzt7HxcSpIFcnNCUkz6R6dWKa54rUz3HUmI3nVcw==}
@@ -1924,8 +1921,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rsbuild-plugin-dts@0.9.0:
-    resolution: {integrity: sha512-cWlBxFWo2t2wVUFIa0nnGUkqaHsSEQuGr4/vh1W9aPtFxjuu3UYnDK8b6CYmbLpUbiRB1R4gkjARoaBx74gyTQ==}
+  rsbuild-plugin-dts@0.9.1:
+    resolution: {integrity: sha512-04pkKrebuajsCpC8Vj2z4n6NFFxUYAdUdqSQRFGkGhdmururoDFYW0k9+ZQq9XrSQTlB01F/HFv5mAc0dwG/Qg==}
     engines: {node: '>=16.7.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -2717,10 +2714,10 @@ snapshots:
       core-js: 3.42.0
       jiti: 2.4.2
 
-  '@rslib/core@0.9.0(typescript@5.8.3)':
+  '@rslib/core@0.9.1(typescript@5.8.3)':
     dependencies:
       '@rsbuild/core': 1.3.21
-      rsbuild-plugin-dts: 0.9.0(@rsbuild/core@1.3.21)(typescript@5.8.3)
+      rsbuild-plugin-dts: 0.9.1(@rsbuild/core@1.3.21)(typescript@5.8.3)
       tinyglobby: 0.2.14
     optionalDependencies:
       typescript: 5.8.3
@@ -3091,7 +3088,7 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001717
+      caniuse-lite: 1.0.30001718
       electron-to-chromium: 1.5.138
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
@@ -3101,8 +3098,6 @@ snapshots:
   cac@6.7.14: {}
 
   callsites@3.1.0: {}
-
-  caniuse-lite@1.0.30001717: {}
 
   caniuse-lite@1.0.30001718: {}
 
@@ -3384,7 +3379,7 @@ snapshots:
       jsonc-eslint-parser: 2.4.0
       pathe: 2.0.3
       pnpm-workspace-yaml: 0.3.1
-      tinyglobby: 0.2.13
+      tinyglobby: 0.2.14
       yaml-eslint-parser: 1.3.0
 
   eslint-plugin-regexp@2.7.0(eslint@9.27.0(jiti@2.4.2)):
@@ -4239,7 +4234,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.40.1
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.9.0(@rsbuild/core@1.3.21)(typescript@5.8.3):
+  rsbuild-plugin-dts@0.9.1(@rsbuild/core@1.3.21)(typescript@5.8.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
       '@rsbuild/core': 1.3.21
