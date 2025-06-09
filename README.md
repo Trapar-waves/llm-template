@@ -5,19 +5,20 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/llm-template)
 
-> A project template for building LLM (Large Language Model) applications.
+[中文](readme/README-CN.md) | [日本語](readme/README-JP.md) | [Русский](readme/README-RU.md)
 
-## ✨ Features
+> A production-ready template for LLM (Large Language Model) application development, integrating AI tools, TypeScript type safety, Zod validation, and modern dev utilities.
 
-- **Type Safety:** Leverages TypeScript (via `typescript`) to improve code quality and reduce runtime errors.
-- **Validation with Zod:** Uses Zod (`zod`) for robust runtime data validation and schema definition.
-- **Fast Development Workflow:** Utilizes Vite (`vite`) for quick server starts and hot module replacement during development.
-- **Testing Ready:** Includes Vitest (`vitest`) for unit testing, indicating attention to code reliability.
-- **AI Integration:** Built with AI-focused libraries like `@ai-sdk/openai` and `ai`, suggesting a focus on integrating large language models or AI-driven workflows.
-- **Efficient Path Handling:** Employs `pathe` for cross-platform path manipulation, ensuring consistent file handling across environments.
-- **Code Formatting:** Likely uses Prettier (`prettier`) for consistent code formatting, improving readability and maintainability.
-- **Environment Configuration:** Includes `dotenv` for managing environment variables, enabling easy configuration of different environments (development, production, etc.).
-- **Linting and Code Quality:** Incorporates ESLint (`eslint`) and Antfu’s ESLint configuration (`@antfu/eslint-config`) to enforce coding standards and best practices.
+## ✨ Key Features
+
+- **Type Safety:** Powered by TypeScript for compile-time type checking and enhanced code maintainability.
+- **Runtime Validation:** Zod schema validation ensures data integrity across API endpoints and model interactions.
+- **Rapid Development:** Vite-based dev server with HMR (Hot Module Replacement) for instant feedback during iteration.
+- **Test-Driven:** Vitest integrated for fast unit testing, ensuring code reliability from development to production.
+- **AI-Ready:** Pre-configured with AI SDKs (`@ai-sdk/openai`, `ai`) for seamless LLM integration and workflow automation.
+- **Cross-Platform Paths:** `pathe` for consistent path handling across Windows/macOS/Linux environments.
+- **Code Consistency:** Prettier formatting and Antfu's ESLint rules enforce standardized code style.
+- **Environment Management:** `dotenv` for secure configuration of API keys and environment-specific settings.
 
 ## 🚀 Getting Started
 
@@ -73,18 +74,32 @@ npm run build:watch
 
 ## 💻 Tech Stack
 
-Key technologies used in this project include:
+Core technologies powering the template:
 
-- **Framework/Library:** Likely modular JavaScript/TypeScript setup (indicated by `type: "module"`).
-- **AI Integration:** Libraries like `@ai-sdk/openai` and `ai` for working with large language models.
-- **Validation:** Zod (`zod`) for runtime type validation.
-- **Build Tool:** Rslib (`@rslib/core`) for building and packaging the project.
-- **Testing:** Vitest (`vitest`) for unit testing.
-- **Styling & Formatting:** Prettier (`prettier`) for consistent code formatting.
-- **Language:** TypeScript (`typescript`) for type safety.
-- **Environment Management:** Dotenv (`dotenv`) for environment variable handling.
+### Development
 
-See the [package.json](package.json) for a full list of dependencies.
+- **Language:** TypeScript (strict type checking)
+- **Dev Server:** Vite (fast HMR and module bundling)
+- **Build Tool:** Rslib (`@rslib/core`) for optimized production builds
+
+### AI Integration
+
+- `@ai-sdk/openai`: OpenAI API client for LLM interactions
+- `ai`: Utilities for building AI-driven workflows
+
+### Validation & Quality
+
+- `zod`: Runtime schema validation for data integrity
+- `eslint` + `@antfu/eslint-config`: Code quality enforcement
+- `prettier`: Consistent code formatting
+
+### Tooling
+
+- `vitest`: Fast unit testing framework
+- `pathe`: Cross-platform path manipulation
+- `dotenv`: Environment variable management
+
+Full dependency list available in [package.json](package.json).
 
 ## 🤝 Contributing
 
