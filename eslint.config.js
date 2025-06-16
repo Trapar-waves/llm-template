@@ -6,7 +6,10 @@ export default antfu({
     semi: true,
   },
   markdown: true,
+  jsonc: true,
   test: true,
+  typescript: true,
+  yaml: true,
   formatters: {
     markdown: "prettier",
   },
