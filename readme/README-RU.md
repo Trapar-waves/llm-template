@@ -82,6 +82,6 @@ pnpm install
 
 ## 🔗 Links
 
-- **Репозиторий:** [https://github.com/llm-template/Trapar-waves](https://github.com/llm-template/Trapar-waves)
-- **Домашняя страница:** [https://github.com/llm-template/Trapar-waves](https://github.com/llm-template/Trapar-waves)
-- **Проблемы:** [https://github.com/llm-template/Trapar-waves/issues](https://github.com/llm-template/Trapar-waves/issues)
+- **Репозиторий:** [https://github.com/Trapar-waves/llm-template](https://github.com/Trapar-waves/llm-template)
+- **Домашняя страница:** [https://github.com/Trapar-waves/llm-template](https://github.com/Trapar-waves/llm-template)
+- **Проблемы:** [https://github.com/Trapar-waves/llm-template/issues](https://github.com/Trapar-waves/llm-template/issues)
