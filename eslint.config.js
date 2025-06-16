@@ -13,4 +13,5 @@ export default antfu({
   formatters: {
     markdown: "prettier",
   },
+  ignores: ["src/prompt/**/*.md"],
 });
