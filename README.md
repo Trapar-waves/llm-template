@@ -2,14 +2,18 @@
 
 ![npm version](https://img.shields.io/npm/v/@trapar-waves/llm-template)
 ![npm dm](https://img.shields.io/npm/dm/@trapar-waves/llm-template)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/github/license/Trapar-waves/llm-template)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/llm-template)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/llm-template/release.yml)
+![Renovate](https://img.shields.io/badge/renovate-enabled-blue)
 
-[中文](readme/README-CN.md) | [日本語](readme/README-JP.md) | [Русский](readme/README-RU.md)
+---
+
+[中文](/readme/README-CN.md) | [日本語](/readme/README-JP.md) | [Русский язык](/readme/README-RU.md)
 
 > A production-ready template for LLM (Large Language Model) application development, integrating AI tools, TypeScript type safety, Zod validation, and modern dev utilities.
 
-## ✨ Key Features
+## ✨ Features
 
 - **Type Safety:** Powered by TypeScript for compile-time type checking and enhanced code maintainability.
 - **Runtime Validation:** Zod schema validation ensures data integrity across API endpoints and model interactions.
@@ -20,102 +24,64 @@
 - **Code Consistency:** Prettier formatting and Antfu's ESLint rules enforce standardized code style.
 - **Environment Management:** `dotenv` for secure configuration of API keys and environment-specific settings.
 
+## 💻 Tech Stack
+
+- **Development:** Provides TypeScript language support, Vite development server, and Rslib build tooling for strict type checking, fast hot module replacement, and optimized production builds.
+- **AI Integration:** Integrates OpenAI API client and AI workflow utilities to support large language model interactions and AI-driven feature development.
+- **Validation & Quality:** Includes Zod runtime schema validation, ESLint code quality enforcement, and Prettier formatting tools to ensure code integrity and consistency.
+- **Development:** Contains Vitest testing framework, Pathe path manipulation, Dotenv environment variable management, and other development utilities to support comprehensive project requirements.
+
+See the [package.json](package.json) for a full list of dependencies.
+
 ## 🚀 Getting Started
 
 Follow these instructions to get the project running locally.
 
 ### Prerequisites
 
-- Ensure you have the following installed:
-  - Node.js (e.g., >= 18.x)
-  - Package manager (npm, yarn, or pnpm)
-  ```bash
-  node -v
-  npm -v # or yarn -v or pnpm -v
-  ```
+Ensure you have the following installed:
+
+- Node.js (>= 18.x recommended)
+- Package manager (npm, yarn, or pnpm)
+
+```bash
+node -v
+npm -v
+```
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Trapar-waves/llm-template.git
-   cd @trapar-waves/llm-template
-   ```
-2. Install dependencies:
-   ```bash
-   # Use your preferred package manager
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   ```
-
-## 🛠️ Usage
-
-Explain how to run and use the project after installation.
-
-### Available Scripts
-
-Common scripts available via `npm run <script>`, `yarn <script>`, or `pnpm <script>`:
-
-- `build`: Builds the project using `rslib build`.
-- `build:watch`: Watches for file changes and rebuilds the project automatically using `rslib build --watch`.
-
-Example:
+Run script
 
 ```bash
-# Build the project
-npm run build
-
-# Watch and rebuild on changes
-npm run build:watch
+pnpm create trapar-waves
 ```
 
-## 💻 Tech Stack
+Install dependencies
 
-Core technologies powering the template:
-
-### Development
-
-- **Language:** TypeScript (strict type checking)
-- **Dev Server:** Vite (fast HMR and module bundling)
-- **Build Tool:** Rslib (`@rslib/core`) for optimized production builds
-
-### AI Integration
-
-- `@ai-sdk/openai`: OpenAI API client for LLM interactions
-- `ai`: Utilities for building AI-driven workflows
-
-### Validation & Quality
-
-- `zod`: Runtime schema validation for data integrity
-- `eslint` + `@antfu/eslint-config`: Code quality enforcement
-- `prettier`: Consistent code formatting
-
-### Tooling
-
-- `vitest`: Fast unit testing framework
-- `pathe`: Cross-platform path manipulation
-- `dotenv`: Environment variable management
-
-Full dependency list available in [package.json](package.json).
+```bash
+npm install
+yarn install
+pnpm install
+```
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
 
-## 📄 License
-
-Distributed under the **MIT** License. See `LICENSE` file for more information.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## 👤 Author
 
-- **Rikka** ([admin@rikka.cc](mailto:admin@rikka.cc))
-- GitHub: [@Muromi-Rikka](https://github.com/Muromi-Rikka)
+- **Rikka:** (admin@rikka.cc)
+- **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
 ## 🔗 Links
 
-- **Repository:** [https://github.com/Trapar-waves/llm-template](https://github.com/Trapar-waves/llm-template)
-- **Homepage:** [https://github.com/Trapar-waves/llm-template](https://github.com/Trapar-waves/llm-template)
-- **Issues:** [https://github.com/Trapar-waves/llm-template/issues](https://github.com/Trapar-waves/llm-template/issues)
+- **Repository:** [https://github.com/llm-template/Trapar-waves](https://github.com/llm-template/Trapar-waves)
+- **Homepage:** [https://github.com/llm-template/Trapar-waves](https://github.com/llm-template/Trapar-waves)
+- **Issues:** [https://github.com/llm-template/Trapar-waves/issues](https://github.com/llm-template/Trapar-waves/issues)
