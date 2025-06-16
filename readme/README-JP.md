@@ -82,6 +82,6 @@ pnpm install
 
 ## 🔗 Links
 
-- **リポジトリ:** [https://github.com/llm-template/Trapar-waves](https://github.com/llm-template/Trapar-waves)
-- **ホームページ:** [https://github.com/llm-template/Trapar-waves](https://github.com/llm-template/Trapar-waves)
-- **イシュー:** [https://github.com/llm-template/Trapar-waves/issues](https://github.com/llm-template/Trapar-waves/issues)
+- **リポジトリ:** [https://github.com/Trapar-waves/llm-template](https://github.com/Trapar-waves/llm-template)
+- **ホームページ:** [https://github.com/Trapar-waves/llm-template](https://github.com/Trapar-waves/llm-template)
+- **イシュー:** [https://github.com/Trapar-waves/llm-template/issues](https://github.com/Trapar-waves/llm-template/issues)

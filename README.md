@@ -82,6 +82,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 
 ## 🔗 Links
 
-- **Repository:** [https://github.com/llm-template/Trapar-waves](https://github.com/llm-template/Trapar-waves)
-- **Homepage:** [https://github.com/llm-template/Trapar-waves](https://github.com/llm-template/Trapar-waves)
-- **Issues:** [https://github.com/llm-template/Trapar-waves/issues](https://github.com/llm-template/Trapar-waves/issues)
+- **Repository:** [https://github.com/Trapar-waves/llm-template](https://github.com/Trapar-waves/llm-template)
+- **Homepage:** [https://github.com/Trapar-waves/llm-template](https://github.com/Trapar-waves/llm-template)
+- **Issues:** [https://github.com/Trapar-waves/llm-template/issues](https://github.com/Trapar-waves/llm-template/issues)
