@@ -37,7 +37,7 @@
     "build": "rslib build",
     "build:watch": "rslib build --watch",
     "lint": "eslint . --cache --max-warnings=0 --no-warn-ignored",
-    "prepare": "husky"
+    "postinstall": "husky"
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.3.22",
@@ -55,9 +55,9 @@
     "dotenv": "^16.5.0",
     "eslint": "^9.29.0",
     "eslint-plugin-format": "^1.0.1",
-    "typescript": "^5.8.3",
-    "vite": "^6.3.5",
     "husky": "^9.1.7",
-    "lint-staged": "^16.1.2"
+    "lint-staged": "^16.1.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
   }
 }
