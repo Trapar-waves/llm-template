@@ -52,7 +52,7 @@
     "@antfu/eslint-config": "^4.16.1",
     "@rslib/core": "^0.10.3",
     "@types/node": "^22.15.34",
-    "dotenv": "^16.6.0",
+    "dotenv": "^16.6.1",
     "eslint": "^9.30.0",
     "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
