@@ -53,7 +53,7 @@
     "@rslib/core": "^0.10.3",
     "@types/node": "^22.15.33",
     "dotenv": "^16.6.0",
-    "eslint": "^9.29.0",
+    "eslint": "^9.30.0",
     "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
