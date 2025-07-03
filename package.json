@@ -46,7 +46,7 @@
     "pathe": "^2.0.3",
     "prettier": "^3.6.2",
     "vitest": "^3.2.4",
-    "zod": "^3.25.67"
+    "zod": "^3.25.69"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.16.2",
