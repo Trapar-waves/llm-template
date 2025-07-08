@@ -40,8 +40,8 @@ importers:
         specifier: ^22.16.0
         version: 22.16.0
       dotenv:
-        specifier: ^17.0.1
-        version: 17.0.1
+        specifier: ^17.1.0
+        version: 17.1.0
       eslint:
         specifier: ^9.30.1
         version: 9.30.1(jiti@2.4.2)
@@ -1116,8 +1116,8 @@ packages:
   diff-match-patch@1.0.5:
     resolution: {integrity: sha512-IayShXAgj/QMXgB0IWmKx+rOPuGMhqm5w6jvFxmVenXKIzRqTAAsbBPT3kWQeGANj3jGgvcvv4yK6SxqYmikgw==}
 
-  dotenv@17.0.1:
-    resolution: {integrity: sha512-GLjkduuAL7IMJg/ZnOPm9AnWKJ82mSE2tzXLaJ/6hD6DhwGfZaXG77oB8qbReyiczNxnbxQKyh0OE5mXq0bAHA==}
+  dotenv@17.1.0:
+    resolution: {integrity: sha512-tG9VUTJTuju6GcXgbdsOuRhupE8cb4mRgY5JLRCh4MtGoVo3/gfGUtOMwmProM6d0ba2mCFvv+WrpYJV6qgJXQ==}
     engines: {node: '>=12'}
 
   electron-to-chromium@1.5.138:
@@ -3294,7 +3294,7 @@ snapshots:
 
   diff-match-patch@1.0.5: {}
 
-  dotenv@17.0.1: {}
+  dotenv@17.1.0: {}
 
   electron-to-chromium@1.5.138: {}
 
