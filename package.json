@@ -49,7 +49,7 @@
     "zod": "^4.0.9"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.19.0",
+    "@antfu/eslint-config": "^5.0.0",
     "@rslib/core": "^0.11.0",
     "@types/node": "^22.16.5",
     "dotenv": "^17.2.1",
