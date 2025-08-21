@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@ai-sdk/openai':
-        specifier: ^2.0.16
-        version: 2.0.16(zod@4.0.17)
+        specifier: ^2.0.17
+        version: 2.0.17(zod@4.0.17)
       ai:
         specifier: ^5.0.19
         version: 5.0.19(zod@4.0.17)
@@ -69,8 +69,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4
 
-  '@ai-sdk/openai@2.0.16':
-    resolution: {integrity: sha512-Boe715q4SkSJedFfAtbP0yuo8DmF9iYElAaDH2g4YgqJqqkskIJJx4hlCYGMMk1eMesRrB2NqZvtOeyTZ/u4fA==}
+  '@ai-sdk/openai@2.0.17':
+    resolution: {integrity: sha512-nt0Dvn3etQJwzJtS6XEUchZkDb3NAjn8yTmLZj1fF+F2pyUbiwKg4joW9kjsrDhcwOxdoQ26OyONsVLE9AWfMw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4
@@ -2257,7 +2257,7 @@ snapshots:
       '@ai-sdk/provider-utils': 3.0.4(zod@4.0.17)
       zod: 4.0.17
 
-  '@ai-sdk/openai@2.0.16(zod@4.0.17)':
+  '@ai-sdk/openai@2.0.17(zod@4.0.17)':
     dependencies:
       '@ai-sdk/provider': 2.0.0
       '@ai-sdk/provider-utils': 3.0.4(zod@4.0.17)
