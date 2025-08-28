@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.22
         version: 2.0.22(zod@4.1.4)
       ai:
-        specifier: ^5.0.25
-        version: 5.0.25(zod@4.1.4)
+        specifier: ^5.0.26
+        version: 5.0.26(zod@4.1.4)
       mdbox:
         specifier: ^0.1.1
         version: 0.1.1
@@ -63,8 +63,8 @@ importers:
 
 packages:
 
-  '@ai-sdk/gateway@1.0.14':
-    resolution: {integrity: sha512-qD5yn7JsQp6hP85YD3LPv6h4Obef0NZnGah/8KT0kMCgkwBhFNKWgXLbsn04K26RkgEqAc7G0Q61pC6ZtjeF6Q==}
+  '@ai-sdk/gateway@1.0.15':
+    resolution: {integrity: sha512-xySXoQ29+KbGuGfmDnABx+O6vc7Gj7qugmj1kGpn0rW0rQNn6UKUuvscKMzWyv1Uv05GyC1vqHq8ZhEOLfXscQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4
@@ -878,8 +878,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  ai@5.0.25:
-    resolution: {integrity: sha512-c7WeAeGnWk+aKUCMgUal2Qa7POcC1/75SrrYHPhlYLWE+DJ2G0gde5TftwCEMwG+pQ6BhaTQHIAQoBR2GGNyAw==}
+  ai@5.0.26:
+    resolution: {integrity: sha512-bGNtG+nYQ2U+5mzuLbxIg9WxGQJ2u5jv2gYgP8C+CJ1YI4qqIjvjOgGEZWzvNet8jiOGIlqstsht9aQefKzmBw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4
@@ -2252,7 +2252,7 @@ packages:
 
 snapshots:
 
-  '@ai-sdk/gateway@1.0.14(zod@4.1.4)':
+  '@ai-sdk/gateway@1.0.15(zod@4.1.4)':
     dependencies:
       '@ai-sdk/provider': 2.0.0
       '@ai-sdk/provider-utils': 3.0.7(zod@4.1.4)
@@ -2982,7 +2982,7 @@ snapshots:
       '@vue/compiler-ssr': 3.5.13
       '@vue/shared': 3.5.13
       estree-walker: 2.0.2
-      magic-string: 0.30.17
+      magic-string: 0.30.18
       postcss: 8.5.6
       source-map-js: 1.2.1
 
@@ -2999,9 +2999,9 @@ snapshots:
 
   acorn@8.15.0: {}
 
-  ai@5.0.25(zod@4.1.4):
+  ai@5.0.26(zod@4.1.4):
     dependencies:
-      '@ai-sdk/gateway': 1.0.14(zod@4.1.4)
+      '@ai-sdk/gateway': 1.0.15(zod@4.1.4)
       '@ai-sdk/provider': 2.0.0
       '@ai-sdk/provider-utils': 3.0.7(zod@4.1.4)
       '@opentelemetry/api': 1.9.0
