@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.36
         version: 2.0.36(zod@4.1.11)
       ai:
-        specifier: ^5.0.54
-        version: 5.0.54(zod@4.1.11)
+        specifier: ^5.0.56
+        version: 5.0.56(zod@4.1.11)
       mdbox:
         specifier: ^0.1.1
         version: 0.1.1
@@ -921,8 +921,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  ai@5.0.54:
-    resolution: {integrity: sha512-eM3EH4VVCWRMfs17r8HF8RtCN/+vBdpWOQoHSVooIfB0BZerOHyrktrVoDP6G6xatUzGLTvJT3rMKLkbPTLPBg==}
+  ai@5.0.56:
+    resolution: {integrity: sha512-Rl++Ogg6DxzFkVHAOJZzhqcqvqtBLGOP9mMxJOGr2EJWj5HH5zjqDcnRh6x5vBoca5kj/Gd0rvUZFMnyI+sRiw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -3108,7 +3108,7 @@ snapshots:
 
   acorn@8.15.0: {}
 
-  ai@5.0.54(zod@4.1.11):
+  ai@5.0.56(zod@4.1.11):
     dependencies:
       '@ai-sdk/gateway': 1.0.30(zod@4.1.11)
       '@ai-sdk/provider': 2.0.0
