@@ -52,7 +52,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^5.4.1",
     "@rslib/core": "^0.15.0",
-    "@types/node": "^22.18.7",
+    "@types/node": "^22.18.8",
     "dotenv": "^17.2.3",
     "eslint": "^9.36.0",
     "eslint-plugin-format": "^1.0.2",
