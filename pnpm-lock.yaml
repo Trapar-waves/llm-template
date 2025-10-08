@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.44
         version: 2.0.44(zod@4.1.12)
       ai:
-        specifier: ^5.0.60
-        version: 5.0.60(zod@4.1.12)
+        specifier: ^5.0.61
+        version: 5.0.61(zod@4.1.12)
       mdbox:
         specifier: ^0.1.1
         version: 0.1.1
@@ -63,8 +63,8 @@ importers:
 
 packages:
 
-  '@ai-sdk/gateway@1.0.33':
-    resolution: {integrity: sha512-v9i3GPEo4t3fGcSkQkc07xM6KJN75VUv7C1Mqmmsu2xD8lQwnQfsrgAXyNuWe20yGY0eHuheSPDZhiqsGKtH1g==}
+  '@ai-sdk/gateway@1.0.34':
+    resolution: {integrity: sha512-Vc/4fGlAW2uGmz6DnbRB9b7kdkbk4DQYNDYNdr/NHJxoaLsdNF3CE8i172rZ47+jEU2hGibcn5yivbgvjMi8Ig==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -857,8 +857,8 @@ packages:
     resolution: {integrity: sha512-zaz9u8EJ4GBmnehlrpoKvj/E3dNbuQ7q0ucyZImm3cLqJ8INTc970B1qEqDX/Rzq65r3TvVTN7kHWPBoyW7DWw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@vercel/oidc@3.0.1':
-    resolution: {integrity: sha512-V/YRVrJDqM6VaMBjRUrd6qRMrTKvZjHdVdEmdXsOZMulTa3iK98ijKTc3wldBmst6W5rHpqMoKllKcBAHgN7GQ==}
+  '@vercel/oidc@3.0.2':
+    resolution: {integrity: sha512-JekxQ0RApo4gS4un/iMGsIL1/k4KUBe3HmnGcDvzHuFBdQdudEJgTqcsJC7y6Ul4Yw5CeykgvQbX2XeEJd0+DA==}
     engines: {node: '>= 20'}
 
   '@vitest/eslint-plugin@1.3.12':
@@ -927,8 +927,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  ai@5.0.60:
-    resolution: {integrity: sha512-80U/3kmdBW6g+JkLXpz/P2EwkyEaWlPlYtuLUpx/JYK9F7WZh9NnkYoh1KvUi1Sbpo0NyurBTvX0a2AG9mmbDA==}
+  ai@5.0.61:
+    resolution: {integrity: sha512-a+NtNgxjMiGvL46/+v7iNbKHLAg8VDheNhYFe9lL3MPiL9W5DNH45wMaahteCYS4WgoFgdQa2zz4CM5lkiXuOA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -2307,11 +2307,11 @@ packages:
 
 snapshots:
 
-  '@ai-sdk/gateway@1.0.33(zod@4.1.12)':
+  '@ai-sdk/gateway@1.0.34(zod@4.1.12)':
     dependencies:
       '@ai-sdk/provider': 2.0.0
       '@ai-sdk/provider-utils': 3.0.10(zod@4.1.12)
-      '@vercel/oidc': 3.0.1
+      '@vercel/oidc': 3.0.2
       zod: 4.1.12
 
   '@ai-sdk/openai@2.0.44(zod@4.1.12)':
@@ -3030,7 +3030,7 @@ snapshots:
       '@typescript-eslint/types': 8.44.0
       eslint-visitor-keys: 4.2.1
 
-  '@vercel/oidc@3.0.1': {}
+  '@vercel/oidc@3.0.2': {}
 
   '@vitest/eslint-plugin@1.3.12(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@22.18.8)(jiti@2.6.0)(yaml@2.8.1))':
     dependencies:
@@ -3123,9 +3123,9 @@ snapshots:
 
   acorn@8.15.0: {}
 
-  ai@5.0.60(zod@4.1.12):
+  ai@5.0.61(zod@4.1.12):
     dependencies:
-      '@ai-sdk/gateway': 1.0.33(zod@4.1.12)
+      '@ai-sdk/gateway': 1.0.34(zod@4.1.12)
       '@ai-sdk/provider': 2.0.0
       '@ai-sdk/provider-utils': 3.0.10(zod@4.1.12)
       '@opentelemetry/api': 1.9.0
