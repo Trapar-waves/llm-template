@@ -50,7 +50,7 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.4.1",
+    "@antfu/eslint-config": "^6.4.2",
     "@rslib/core": "^0.18.3",
     "@types/node": "^24.10.1",
     "dotenv": "^17.2.3",
