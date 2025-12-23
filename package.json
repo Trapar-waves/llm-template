@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^2.0.88",
-    "ai": "^5.0.116",
+    "ai": "^6.0.1",
     "mdbox": "^0.1.1",
     "pathe": "^2.0.3",
     "prettier": "^3.7.4",
