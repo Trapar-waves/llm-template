@@ -46,7 +46,7 @@
     "mdbox": "^0.1.1",
     "pathe": "^2.0.3",
     "prettier": "^3.7.4",
-    "vitest": "^4.0.16",
+    "vitest": "^4.0.17",
     "zod": "^4.3.5"
   },
   "devDependencies": {
