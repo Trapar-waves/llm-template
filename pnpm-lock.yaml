@@ -32,7 +32,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^7.3.0
-        version: 7.3.0(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.3.1(eslint@10.0.0(jiti@2.6.1)))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@24.10.11)(jiti@2.6.1)(yaml@2.8.2))
+        version: 7.3.0(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.4.0(eslint@10.0.0(jiti@2.6.1)))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@24.10.11)(jiti@2.6.1)(yaml@2.8.2))
       '@rslib/core':
         specifier: ^0.19.4
         version: 0.19.4(typescript@5.9.3)
@@ -46,8 +46,8 @@ importers:
         specifier: ^10.0.0
         version: 10.0.0(jiti@2.6.1)
       eslint-plugin-format:
-        specifier: ^1.3.1
-        version: 1.3.1(eslint@10.0.0(jiti@2.6.1))
+        specifier: ^1.4.0
+        version: 1.4.0(eslint@10.0.0(jiti@2.6.1))
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -1219,8 +1219,8 @@ packages:
     peerDependencies:
       eslint: '>=8'
 
-  eslint-plugin-format@1.3.1:
-    resolution: {integrity: sha512-nK96Gnt6/9wj8KhTFg+D80Mc01cffrcB15NO6pkTJmPpO0vHV+9yxegr+wVry4O3uGbu83HN86inCO3IsML9Rw==}
+  eslint-plugin-format@1.4.0:
+    resolution: {integrity: sha512-6o3fBJENUZPXlg01ab0vTldr6YThw0dxb49QMVp1V9bI7k22dtXYuWWMm3mitAsntJOt8V4pa7BWHUalTrSBPA==}
     peerDependencies:
       eslint: ^8.40.0 || ^9.0.0
 
@@ -2010,6 +2010,10 @@ packages:
     resolution: {integrity: sha512-MeQTA1r0litLUf0Rp/iisCaL8761lKAZHaimlbGK4j0HysC4PLfqygQj9srcs0m2RdtDYnF8UuYyKpbjHYp7Jw==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
+  synckit@0.11.12:
+    resolution: {integrity: sha512-Bh7QjT8/SuKUIfObSXNHNSK6WHo6J1tHCqJsuaFDP7gP0fkzSfTxI8y85JrppZ0h8l0maIgc2tfuZQ6/t3GtnQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
     engines: {node: '>=6'}
@@ -2246,7 +2250,7 @@ snapshots:
     dependencies:
       json-schema: 0.4.0
 
-  '@antfu/eslint-config@7.3.0(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.3.1(eslint@10.0.0(jiti@2.6.1)))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@24.10.11)(jiti@2.6.1)(yaml@2.8.2))':
+  '@antfu/eslint-config@7.3.0(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.4.0(eslint@10.0.0(jiti@2.6.1)))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@24.10.11)(jiti@2.6.1)(yaml@2.8.2))':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@clack/prompts': 1.0.0
@@ -2286,7 +2290,7 @@ snapshots:
       vue-eslint-parser: 10.2.0(eslint@10.0.0(jiti@2.6.1))
       yaml-eslint-parser: 2.0.0
     optionalDependencies:
-      eslint-plugin-format: 1.3.1(eslint@10.0.0(jiti@2.6.1))
+      eslint-plugin-format: 1.4.0(eslint@10.0.0(jiti@2.6.1))
     transitivePeerDependencies:
       - '@eslint/json'
       - '@vue/compiler-sfc'
@@ -3255,7 +3259,7 @@ snapshots:
       eslint: 10.0.0(jiti@2.6.1)
       eslint-compat-utils: 0.5.1(eslint@10.0.0(jiti@2.6.1))
 
-  eslint-plugin-format@1.3.1(eslint@10.0.0(jiti@2.6.1)):
+  eslint-plugin-format@1.4.0(eslint@10.0.0(jiti@2.6.1)):
     dependencies:
       '@dprint/formatter': 0.5.1
       '@dprint/markdown': 0.20.0
@@ -3265,7 +3269,7 @@ snapshots:
       eslint-parser-plain: 0.1.1
       ohash: 2.0.11
       prettier: 3.8.1
-      synckit: 0.11.11
+      synckit: 0.11.12
 
   eslint-plugin-import-lite@0.5.0(eslint@10.0.0(jiti@2.6.1)):
     dependencies:
@@ -4265,6 +4269,10 @@ snapshots:
   strip-indent@4.1.1: {}
 
   synckit@0.11.11:
+    dependencies:
+      '@pkgr/core': 0.2.9
+
+  synckit@0.11.12:
     dependencies:
       '@pkgr/core': 0.2.9
 
