@@ -14,4 +14,10 @@ export default antfu({
     markdown: "prettier",
   },
   ignores: ["src/prompt/**/*.md"],
+}, {
+  name: "trapar/pnpm-workspace-yaml-trust-policy",
+  files: ["pnpm-workspace.yaml"],
+  rules: {
+    "pnpm/yaml-enforce-settings": "off",
+  },
 });
