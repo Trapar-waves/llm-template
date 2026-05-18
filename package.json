@@ -41,7 +41,7 @@
     "postinstall": "husky"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^3.0.63",
+    "@ai-sdk/openai": "^3.0.64",
     "ai": "^6.0.184",
     "mdbox": "^0.1.1",
     "pathe": "^2.0.3",
