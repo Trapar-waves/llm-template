@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@ai-sdk/openai':
-        specifier: ^3.0.68
+        specifier: ^3.0.71
         version: 3.0.71(zod@4.4.3)
       ai:
         specifier: ^6.0.206
