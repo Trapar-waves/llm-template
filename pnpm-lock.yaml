@@ -34,7 +34,7 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0(@typescript-eslint/rule-tester@8.61.1(eslint@10.5.0)(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.61.1(typescript@6.0.3))(@typescript-eslint/utils@8.61.1(eslint@10.5.0)(typescript@6.0.3))(@vue/compiler-sfc@3.5.38)(eslint-plugin-format@2.0.1(eslint@10.5.0))(eslint@10.5.0)(typescript@6.0.3)(vitest@4.1.9(@opentelemetry/api@1.9.1)(@types/node@24.13.2)(vite@8.0.16(@types/node@24.13.2)(yaml@2.9.0)))
       '@rslib/core':
-        specifier: ^0.22.0
+        specifier: ^0.22.1
         version: 0.22.1(typescript@6.0.3)
       '@types/node':
         specifier: ^24.13.2
