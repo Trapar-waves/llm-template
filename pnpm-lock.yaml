@@ -43,7 +43,7 @@ importers:
         specifier: ^17.4.2
         version: 17.4.2
       eslint:
-        specifier: ^10.6.0
+        specifier: ^10.7.0
         version: 10.7.0
       eslint-plugin-format:
         specifier: ^2.0.1
