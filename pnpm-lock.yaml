@@ -37,7 +37,7 @@ importers:
         specifier: ^0.23.2
         version: 0.23.2(typescript@6.0.3)
       '@types/node':
-        specifier: ^24.13.2
+        specifier: ^24.13.3
         version: 24.13.3
       dotenv:
         specifier: ^17.4.2
