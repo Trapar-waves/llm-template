@@ -21,7 +21,7 @@ importers:
         specifier: ^2.0.3
         version: 2.0.3
       prettier:
-        specifier: ^3.9.4
+        specifier: ^3.9.5
         version: 3.9.5
       vitest:
         specifier: ^4.1.10
