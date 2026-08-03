@@ -58,7 +58,7 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2
       vite:
-        specifier: ^8.1.5
+        specifier: ^8.2.0
         version: 8.2.0(@types/node@24.13.3)(yaml@2.9.0)
 
 packages:
