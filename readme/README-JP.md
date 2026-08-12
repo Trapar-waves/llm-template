@@ -13,6 +13,10 @@
 
 > 本番環境対応の LLM（大規模言語モデル）アプリケーション開発テンプレート。AI ツール、TypeScript の型安全性、Zod バリデーション、モダンな開発ユーティリティを統合。
 
+![llm-template hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特徴
 
 - **型安全性：** TypeScript を活用してコード品質を向上させ、実行時エラーを削減。
@@ -24,6 +28,8 @@
 - **コード一貫性：** Prettier と Antfu の ESLint 設定でコードスタイルと品質を強制。
 - **環境管理：** `dotenv` を使用した API キーと環境固有設定の安全な構成。
 - **クロスプラットフォームパス：** `pathe` を使用した OS 間一貫したファイルパス処理。
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 技術スタック
 
@@ -37,6 +43,8 @@
 - **ユーティリティ：** Dotenv、Pathe
 
 依存関係の完全なリストは [package.json](../package.json) を参照してください。
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 はじめに
 
@@ -65,6 +73,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 プロジェクト構造
 
 ```
@@ -80,6 +90,8 @@
 └── package.json        # プロジェクトの依存関係とスクリプト
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 コントリビュート
 
 コントリビュートを歓迎します！以下の手順に従ってください：
@@ -89,6 +101,8 @@
 3. 変更をコミット（`git commit -m 'Add some amazing feature'`）
 4. ブランチにプッシュ（`git push origin feature/amazing-feature`）
 5. Pull Request を作成
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 ライセンス
 

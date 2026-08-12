@@ -13,6 +13,10 @@
 
 > A production-ready template for LLM (Large Language Model) application development, integrating AI tools, TypeScript type safety, Zod validation, and modern dev utilities.
 
+![llm-template hero](assets/readme/hero.svg)
+
+![Features](assets/readme/headers/features.svg)
+
 ## ✨ Features
 
 - **Type Safety:** Leverages TypeScript to improve code quality and reduce runtime errors.
@@ -24,6 +28,8 @@
 - **Code Consistency:** Enforces code style and quality using Prettier and Antfu's ESLint configuration.
 - **Environment Management:** Uses `dotenv` for secure configuration of API keys and environment-specific settings.
 - **Cross-Platform Paths:** Employs `pathe` for consistent file path handling across different operating systems.
+
+![Tech Stack](assets/readme/headers/tech-stack.svg)
 
 ## 💻 Tech Stack
 
@@ -37,6 +43,8 @@
 - **Utilities:** Dotenv, Pathe
 
 See the [package.json](./package.json) for a full list of dependencies.
+
+![Getting Started](assets/readme/headers/getting-started.svg)
 
 ## 🚀 Getting Started
 
@@ -65,6 +73,8 @@ See the [package.json](./package.json) for a full list of dependencies.
    pnpm dev
    ```
 
+![Project Structure](assets/readme/headers/project-structure.svg)
+
 ## 📁 Project Structure
 
 ```
@@ -80,6 +90,8 @@ See the [package.json](./package.json) for a full list of dependencies.
 └── package.json        # Project dependencies and scripts
 ```
 
+![Contributing](assets/readme/headers/contributing.svg)
+
 ## 🤝 Contributing
 
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
@@ -89,6 +101,8 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+![License](assets/readme/headers/license.svg)
 
 ## 📄 License
 

@@ -13,6 +13,10 @@
 
 > 一个生产就绪的 LLM（大型语言模型）应用开发模板，集成 AI 工具、TypeScript 类型安全、Zod 验证和现代开发工具。
 
+![llm-template hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特性
 
 - **类型安全：** 利用 TypeScript 提高代码质量并减少运行时错误。
@@ -24,6 +28,8 @@
 - **代码一致性：** 使用 Prettier 和 Antfu 的 ESLint 配置强制执行代码风格和质量。
 - **环境管理：** 使用 `dotenv` 安全配置 API 密钥和特定于环境的设置。
 - **跨平台路径：** 使用 `pathe` 实现跨不同操作系统的统一文件路径处理。
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 技术栈
 
@@ -37,6 +43,8 @@
 - **实用工具：** Dotenv，Pathe
 
 查看 [package.json](../package.json) 获取完整的依赖列表。
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 快速开始
 
@@ -65,6 +73,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 项目结构
 
 ```
@@ -80,6 +90,8 @@
 └── package.json        # 项目依赖和脚本
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 贡献
 
 欢迎贡献，非常感谢！请按照以下步骤贡献：
@@ -89,6 +101,8 @@
 3. 提交更改（`git commit -m 'Add some amazing feature'`）
 4. 推送到分支（`git push origin feature/amazing-feature`）
 5. 创建 Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 许可证
 

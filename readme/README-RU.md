@@ -13,6 +13,10 @@
 
 > Готовый к продакшну шаблон для разработки LLM (больших языковых моделей) приложений, интегрирующий AI-инструменты, типобезопасность TypeScript, валидацию Zod и современные утилиты для разработки.
 
+![llm-template hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ Возможности
 
 - **Типобезопасность:** Использование TypeScript для повышения качества кода и снижения ошибок во время выполнения.
@@ -24,6 +28,8 @@
 - **Единообразие кода:** Использование Prettier и конфигурации ESLint от Antfu для соблюдения стиля и качества кода.
 - **Управление окружением:** Использование `dotenv` для безопасной настройки API-ключей и параметров окружения.
 - **Кроссплатформенные пути:** Использование `pathe` для согласованной обработки файловых путей в различных операционных системах.
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 Технологический стек
 
@@ -37,6 +43,8 @@
 - **Утилиты:** Dotenv, Pathe
 
 Полный список зависимостей смотрите в [package.json](../package.json).
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 Начало работы
 
@@ -65,6 +73,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 Структура проекта
 
 ```
@@ -80,6 +90,8 @@
 └── package.json        # Зависимости и скрипты проекта
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 Участие в разработке
 
 Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам:
@@ -89,6 +101,8 @@
 3. Зафиксируйте изменения (`git commit -m 'Add some amazing feature'`)
 4. Отправьте изменения в ветку (`git push origin feature/amazing-feature`)
 5. Откройте Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 Лицензия
 
