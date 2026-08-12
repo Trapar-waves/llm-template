@@ -9,7 +9,7 @@
 
 ---
 
-[中文](/readme/README-CN.md) | [日本語](/readme/README-JP.md) | [Русский язык](/readme/README-RU.md)
+[中文](./readme/README-CN.md) | [日本語](./readme/README-JP.md) | [Русский язык](./readme/README-RU.md)
 
 > A production-ready template for LLM (Large Language Model) application development, integrating AI tools, TypeScript type safety, Zod validation, and modern dev utilities.
 
@@ -27,8 +27,6 @@
 
 ## 💻 Tech Stack
 
-Key technologies used in this project include:
-
 - **Language:** TypeScript
 - **LLM Framework:** AI SDK (`@ai-sdk/openai`, `ai`)
 - **Validation:** Zod
@@ -38,65 +36,49 @@ Key technologies used in this project include:
 - **Code Quality:** ESLint (Antfu's config), Prettier
 - **Utilities:** Dotenv, Pathe
 
-See the [package.json](package.json) for a full list of dependencies.
+See the [package.json](./package.json) for a full list of dependencies.
 
 ## 🚀 Getting Started
 
-Follow these instructions to get the project running locally.
-
 ### Prerequisites
-
-Ensure you have the following installed:
 
 - Node.js (>= 18.x recommended)
 - Package manager (npm, yarn, or pnpm)
 
-```bash
-node -v
-npm -v
-```
-
 ### Installation
 
-Run script
+1. Create a new project using the template:
 
-```bash
-pnpm create trapar-waves
+   ```bash
+   pnpm create trapar-waves
+   ```
+
+2. Navigate to your project directory and install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   pnpm dev
+   ```
+
+## 📁 Project Structure
+
 ```
-
-Install dependencies
-
-```bash
-npm install
-yarn install
-pnpm install
+├── src/                # Source code
+│   ├── model/          # LLM model configuration and interactions
+│   ├── prompt/         # Prompt templates and test data
+│   └── index.ts        # Entry point
+├── tests/              # Unit tests
+├── rslib.config.ts     # Rslib configuration
+├── vitest.config.ts    # Vitest configuration
+├── tsconfig.json       # TypeScript configuration
+├── eslint.config.js    # ESLint configuration
+└── package.json        # Project dependencies and scripts
 ```
-
-### Available Scripts
-
-Common scripts available via `npm run <script>`, `yarn <script>`, or `pnpm <script>`:
-
-- `build`: Creates a production-ready build using Rslib.
-- `build:watch`: Creates a production-ready build using Rslib in watch mode.
-- `lint`: Checks the code for style and errors using ESLint.
-
-Example:
-
-```bash
-# Create production build
-npm run build
-```
-
-## 🛠️ Usage
-
-This template provides a foundational structure for building LLM applications. It includes:
-
-- A basic project structure with `src/` directory.
-- Integration with OpenAI API through `@ai-sdk/openai`.
-- Example usage of `ai` and `zod` for generating structured output.
-- Configuration for building and testing with Rslib and Vitest.
-
-Developers can extend this template by adding their own prompts, models, and application logic within the `src/` directory.
 
 ## 🤝 Contributing
 
@@ -110,15 +92,14 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` file for more information.
+MIT License © 2025 Trapar Waves
 
 ## 👤 Author
 
-- **Rikka:** (admin@rikka.cc)
+- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
 - **GitHub Profile:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
 
 ## 🔗 Links
 
 - **Repository:** [https://github.com/Trapar-waves/llm-template](https://github.com/Trapar-waves/llm-template)
-- **Homepage:** [https://github.com/Trapar-waves/llm-template](https://github.com/Trapar-waves/llm-template)
 - **Issues:** [https://github.com/Trapar-waves/llm-template/issues](https://github.com/Trapar-waves/llm-template/issues)
