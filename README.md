@@ -17,8 +17,6 @@
 
 ![Features](assets/readme/headers/features.svg)
 
-## ✨ Features
-
 - **Type Safety:** Leverages TypeScript to improve code quality and reduce runtime errors.
 - **Fast Development Workflow:** Utilizes Vite for quick server starts and hot module replacement.
 - **Optimized Builds:** Employs Rslib for efficient library bundling and optimized production outputs.
@@ -30,8 +28,6 @@
 - **Cross-Platform Paths:** Employs `pathe` for consistent file path handling across different operating systems.
 
 ![Tech Stack](assets/readme/headers/tech-stack.svg)
-
-## 💻 Tech Stack
 
 - **Language:** TypeScript
 - **LLM Framework:** AI SDK (`@ai-sdk/openai`, `ai`)
@@ -45,8 +41,6 @@
 See the [package.json](./package.json) for a full list of dependencies.
 
 ![Getting Started](assets/readme/headers/getting-started.svg)
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -75,8 +69,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Project Structure](assets/readme/headers/project-structure.svg)
 
-## 📁 Project Structure
-
 ```
 ├── src/                # Source code
 │   ├── model/          # LLM model configuration and interactions
@@ -92,8 +84,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Contributing](assets/readme/headers/contributing.svg)
 
-## 🤝 Contributing
-
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
 
 1. Fork the repository
@@ -103,8 +93,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 5. Open a Pull Request
 
 ![License](assets/readme/headers/license.svg)
-
-## 📄 License
 
 MIT License © 2025 Trapar Waves
 

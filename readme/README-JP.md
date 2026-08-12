@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特徴
-
 - **型安全性：** TypeScript を活用してコード品質を向上させ、実行時エラーを削減。
 - **高速開発ワークフロー：** Vite を活用したサーバーの高速起動とホットモジュール置換。
 - **最適化ビルド：** Rslib を使用した効率的なライブラリバンドルと最適化された本番出力。
@@ -30,8 +28,6 @@
 - **クロスプラットフォームパス：** `pathe` を使用した OS 間一貫したファイルパス処理。
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 技術スタック
 
 - **言語：** TypeScript
 - **LLM フレームワーク：** AI SDK (`@ai-sdk/openai`, `ai`)
@@ -45,8 +41,6 @@
 依存関係の完全なリストは [package.json](../package.json) を参照してください。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 はじめに
 
 ### 前提条件
 
@@ -75,8 +69,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 プロジェクト構造
-
 ```
 ├── src/                # ソースコード
 │   ├── model/          # LLM モデル設定とインタラクション
@@ -92,8 +84,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 コントリビュート
-
 コントリビュートを歓迎します！以下の手順に従ってください：
 
 1. リポジトリをフォーク
@@ -103,8 +93,6 @@
 5. Pull Request を作成
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 ライセンス
 
 MIT License © 2025 Trapar Waves
 

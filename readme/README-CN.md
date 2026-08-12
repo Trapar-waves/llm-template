@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特性
-
 - **类型安全：** 利用 TypeScript 提高代码质量并减少运行时错误。
 - **快速开发工作流：** 利用 Vite 实现快速服务器启动和热模块替换。
 - **优化构建：** 采用 Rslib 进行高效的库打包和优化的生产输出。
@@ -30,8 +28,6 @@
 - **跨平台路径：** 使用 `pathe` 实现跨不同操作系统的统一文件路径处理。
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 技术栈
 
 - **语言：** TypeScript
 - **LLM 框架：** AI SDK (`@ai-sdk/openai`, `ai`)
@@ -45,8 +41,6 @@
 查看 [package.json](../package.json) 获取完整的依赖列表。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 快速开始
 
 ### 前置条件
 
@@ -75,8 +69,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 项目结构
-
 ```
 ├── src/                # 源代码
 │   ├── model/          # LLM 模型配置与交互
@@ -92,8 +84,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 贡献
-
 欢迎贡献，非常感谢！请按照以下步骤贡献：
 
 1. Fork 仓库
@@ -103,8 +93,6 @@
 5. 创建 Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 许可证
 
 MIT License © 2025 Trapar Waves
 
