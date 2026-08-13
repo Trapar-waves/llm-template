@@ -42,12 +42,12 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Getting Started](assets/readme/headers/getting-started.svg)
 
-### Prerequisites
+## Prerequisites
 
 - Node.js (>= 18.x recommended)
 - Package manager (npm, yarn, or pnpm)
 
-### Installation
+## Installation
 
 1. Create a new project using the template:
 

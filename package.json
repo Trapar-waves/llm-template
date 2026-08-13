@@ -41,8 +41,8 @@
     "postinstall": "husky"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^4.0.40",
-    "ai": "^7.0.62",
+    "@ai-sdk/openai": "^4.0.41",
+    "ai": "^7.0.64",
     "mdbox": "^0.1.1",
     "pathe": "^2.0.3",
     "prettier": "^3.9.6",
@@ -52,13 +52,13 @@
   "devDependencies": {
     "@antfu/eslint-config": "^9.3.0",
     "@rslib/core": "^0.23.2",
-    "@types/node": "^24.13.3",
+    "@types/node": "^26.2.0",
     "dotenv": "^17.4.2",
     "eslint": "^10.8.1",
     "eslint-plugin-format": "^2.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^17.3.0",
-    "typescript": "^7.0.2",
+    "typescript": "^5.9.3",
     "vite": "^8.2.1"
   }
 }
