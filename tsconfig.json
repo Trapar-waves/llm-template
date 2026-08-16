@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "lib": ["ES2017"],
-    "baseUrl": ".",
+    "rootDir": "./src",
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
