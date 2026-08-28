@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["ES2017"],
+    "lib": ["ES2021"],
     "rootDir": "./src",
     "module": "esnext",
     "moduleResolution": "bundler",
