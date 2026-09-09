@@ -42,12 +42,12 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^4.0.51",
-    "ai": "^7.0.84",
+    "ai": "^7.0.93",
     "mdbox": "^0.1.1",
     "pathe": "^2.0.3",
     "prettier": "^3.9.6",
     "vitest": "^5.0.0",
-    "zod": "^4.5.2"
+    "zod": "^4.5.4"
   },
   "devDependencies": {
     "@renton/eslint-config": "^1.1.0",

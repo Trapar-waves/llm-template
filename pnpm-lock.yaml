@@ -113,7 +113,7 @@ importers:
         specifier: ^4.0.51
         version: 4.0.60(zod@4.5.4)
       ai:
-        specifier: ^7.0.84
+        specifier: ^7.0.93
         version: 7.0.93(zod@4.5.4)
       mdbox:
         specifier: ^0.1.1
@@ -128,7 +128,7 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0(@types/node@26.5.0)(vite@8.2.2(@types/node@26.5.0)(yaml@2.9.0))
       zod:
-        specifier: ^4.5.2
+        specifier: ^4.5.4
         version: 4.5.4
     devDependencies:
       '@renton/eslint-config':
