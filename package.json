@@ -52,7 +52,7 @@
   "devDependencies": {
     "@renton/eslint-config": "^1.1.0",
     "@rslib/core": "^1.0.0",
-    "@types/node": "^26.5.0",
+    "@types/node": "^26.5.1",
     "dotenv": "^17.4.2",
     "eslint": "^10.10.0",
     "eslint-plugin-format": "^2.0.1",
