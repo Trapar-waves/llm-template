@@ -201,7 +201,7 @@ importers:
         specifier: ^17.4.2
         version: 17.4.2
       eslint:
-        specifier: ^10.10.0
+        specifier: ^10.11.0
         version: 10.11.0
       eslint-plugin-format:
         specifier: ^2.0.1
