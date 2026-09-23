@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "@renton/eslint-config": "^1.1.0",
-    "@rslib/core": "^1.0.1",
+    "@rslib/core": "^1.0.2",
     "@types/node": "^26.6.2",
     "dotenv": "^18.0.2",
     "eslint": "^10.11.0",
