@@ -167,7 +167,7 @@ importers:
   .:
     dependencies:
       '@ai-sdk/openai':
-        specifier: ^4.0.73
+        specifier: ^4.0.74
         version: 4.0.75(zod@4.6.5)
       ai:
         specifier: ^7.0.113
