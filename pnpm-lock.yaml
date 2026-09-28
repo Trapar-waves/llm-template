@@ -195,7 +195,7 @@ importers:
         specifier: ^1.0.2
         version: 1.0.2(typescript@6.0.3)
       '@types/node':
-        specifier: ^26.6.2
+        specifier: ^26.6.3
         version: 26.6.3
       dotenv:
         specifier: ^18.0.3
