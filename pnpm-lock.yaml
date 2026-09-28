@@ -198,7 +198,7 @@ importers:
         specifier: ^26.6.3
         version: 26.6.3
       dotenv:
-        specifier: ^18.0.3
+        specifier: ^18.0.4
         version: 18.0.4
       eslint:
         specifier: ^10.11.0
