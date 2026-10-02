@@ -170,7 +170,7 @@ importers:
         specifier: ^4.0.83
         version: 4.0.83(zod@4.6.5)
       ai:
-        specifier: ^7.0.126
+        specifier: ^7.0.127
         version: 7.0.127(zod@4.6.5)
       mdbox:
         specifier: ^0.1.1
