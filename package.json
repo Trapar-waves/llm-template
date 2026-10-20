@@ -26,7 +26,6 @@
     "vitest",
     "vite",
     "rslib",
-    "prettier",
     "eslint",
     "dotenv",
     "pathe"
@@ -45,17 +44,15 @@
     "ai": "^7.0.146",
     "mdbox": "^0.1.1",
     "pathe": "^2.0.3",
-    "prettier": "^3.9.10",
     "vitest": "^5.0.5",
     "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@renton/eslint-config": "^1.1.0",
+    "@renton/eslint-config": "^1.2.0",
     "@rslib/core": "^1.0.3",
     "@types/node": "^26.6.5",
     "dotenv": "^18.0.8",
     "eslint": "^10.13.0",
-    "eslint-plugin-format": "^2.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "typescript": "^6.0.3",

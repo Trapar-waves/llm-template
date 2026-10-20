@@ -1,8 +1,6 @@
 minimumReleaseAge: 0
-
-shellEmulator: true
-
 trustPolicy: off
+shellEmulator: true
 
 onlyBuiltDependencies:
   - core-js
