@@ -189,8 +189,8 @@ importers:
         specifier: ^4.0.125
         version: 4.0.125(zod@4.6.7)
       ai:
-        specifier: ^7.0.182
-        version: 7.0.182(zod@4.6.7)
+        specifier: ^7.0.183
+        version: 7.0.183(zod@4.6.7)
       mdbox:
         specifier: ^0.1.1
         version: 0.1.1
@@ -234,20 +234,14 @@ importers:
 
 packages:
 
-  '@ai-sdk/gateway@4.0.155':
-    resolution: {integrity: sha512-8/LE3fvfCIX6WrtUV796xd0sHKEI8E0ctRpCHP4c+kzBBZYJ4x6W4qa3ODVV4UDsoJRk4ndAoTphcmv8qjrYiQ==}
+  '@ai-sdk/gateway@4.0.156':
+    resolution: {integrity: sha512-Nv1ILpLYNDlIV/beyo6Uc6jZcwTDzLMiSqer4PUEmIHqyOceLHf58lv1bfntAJ0xZxaBa9BtYDOv3/Msu0mQrQ==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
   '@ai-sdk/openai@4.0.125':
     resolution: {integrity: sha512-YKYn8DVW8YbosdshXfPbcX9J1EORv72TMnw7eLn8i3uX7lHtW+/on5V8cfeGJYci0boDvxv7yD8J7vUovIwaOQ==}
-    engines: {node: '>=22'}
-    peerDependencies:
-      zod: ^3.25.76 || ^4.1.8
-
-  '@ai-sdk/provider-utils@5.0.84':
-    resolution: {integrity: sha512-nj6xEZM7I1XdfRcMUPTKhYuZEGH8CVpzp9/dbBDtcsVFEF+qM+J4RoauGSQ9+1cARFunMtrZ0/4bMNsUBl55tA==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -1023,8 +1017,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  ai@7.0.182:
-    resolution: {integrity: sha512-R1sCcajzTie+XhZjDUAZsSzWMfq7ggaQGqVYxaY8tpmlewYPYslynj98e45khjRYWJfowSIwpLxzsEspVywYpw==}
+  ai@7.0.183:
+    resolution: {integrity: sha512-rrPZNiuOKr8L6j9acxrWpE/lKWgR+rYNHDYr9bOvfMLM8RlsX75WMJsMw4LBPZkX6tdjFL8fiLXhTKN29wkkYQ==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -2238,10 +2232,10 @@ packages:
 
 snapshots:
 
-  '@ai-sdk/gateway@4.0.155(zod@4.6.7)':
+  '@ai-sdk/gateway@4.0.156(zod@4.6.7)':
     dependencies:
       '@ai-sdk/provider': 4.0.39
-      '@ai-sdk/provider-utils': 5.0.84(zod@4.6.7)
+      '@ai-sdk/provider-utils': 5.0.85(zod@4.6.7)
       '@vercel/oidc': 3.2.0
       zod: 4.6.7
 
@@ -2249,14 +2243,6 @@ snapshots:
     dependencies:
       '@ai-sdk/provider': 4.0.39
       '@ai-sdk/provider-utils': 5.0.85(zod@4.6.7)
-      zod: 4.6.7
-
-  '@ai-sdk/provider-utils@5.0.84(zod@4.6.7)':
-    dependencies:
-      '@ai-sdk/provider': 4.0.39
-      '@standard-schema/spec': 1.1.0
-      '@workflow/serde': 4.1.0
-      eventsource-parser: 3.1.1
       zod: 4.6.7
 
   '@ai-sdk/provider-utils@5.0.85(zod@4.6.7)':
@@ -2930,11 +2916,11 @@ snapshots:
 
   acorn@8.19.0: {}
 
-  ai@7.0.182(zod@4.6.7):
+  ai@7.0.183(zod@4.6.7):
     dependencies:
-      '@ai-sdk/gateway': 4.0.155(zod@4.6.7)
+      '@ai-sdk/gateway': 4.0.156(zod@4.6.7)
       '@ai-sdk/provider': 4.0.39
-      '@ai-sdk/provider-utils': 5.0.84(zod@4.6.7)
+      '@ai-sdk/provider-utils': 5.0.85(zod@4.6.7)
       zod: 4.6.7
 
   ajv@6.15.0:
